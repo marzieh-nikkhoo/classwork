@@ -1,0 +1,22 @@
+body{
+    background-image: url(ab1.jpg);
+    background-size: cover;
+  
+}
+.title{
+    
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 50px;
+    color: rgb(24, 10, 36);
+    font-family: 'Patrick Hand', cursive;
+    
+}
+.subtitle{
+    
+    margin-left:  5%;
+   
+    color: rgb(24, 10, 36);
+    font-family: 'Patrick Hand', cursive;
+   
+}

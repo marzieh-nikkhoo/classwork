@@ -1,0 +1,20 @@
+.art{
+    background-color:#87a591 ;
+    width: 400px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.news{
+    
+    background-color:#88535c ;
+    width: 1000px;
+    border-radius: 5px;
+   padding: 20px;
+}
+.gallery{
+    
+    background-color:#997b6c ;
+    width: 1000px;
+    border-radius: 5px;
+   padding: 20px;
+}

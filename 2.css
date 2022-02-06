@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+body {
+  direction: rtl;
+}
+.container {
+  width: 60%;
+  margin: auto auto;
+  background-color: palevioletred;
+}
+.NFRight {
+  height: 500px;
+  margin: 2%;
+  width: 45%;
+  float: left;
+  background-color: sandybrown;
+}
+.NFLeft {
+  height: 500px;
+  margin: 2%;
+  width: 45%;
+  float: left;
+  background-color: purple;
+}

@@ -1,0 +1,23 @@
+body{
+    direction: rtl;
+}
+.overal{
+    width: 60%;
+    margin: auto auto;
+
+}
+.right{
+    height: 500px;
+    margin:3% ;
+    width: 45%;
+    float: left;
+    background-color: blueviolet;
+
+}
+.left{
+    height: 500px;
+    margin:3% ;
+    width: 45%;
+    float: left;
+    background-color: rgb(229, 255, 0);
+}

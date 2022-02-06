@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 40%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: #e5e5e5;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.rightone {
+  background-color: #e5e5e5;
+  float: left;
+  width: 100%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+.righttwo {
+  background-color: #bd1717;
+  float: left;
+  width: 100%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+.rightthree {
+  background-color: #2f1bdf;
+  float: left;
+  width: 100%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+@media only screen and (max-width: 640px) {
+  /* For mobile phones: */
+  .menu, .main, .rightone {
+    width: 100%;
+  }
+  .menu{
+      background-color: coral;
+  }
+  .main{
+      background-color: cornflowerblue;
+  }
+  .righttwo{
+    display: none;
+  }
+  .rightthree{
+    display: none;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width:1007px) {
+  /* For mobile phones: */
+  
+  .rightone{
+    display: none;
+  }
+  .rightthree{
+    display: none;
+  }
+  .menu{
+      background-color: coral;
+  }
+  .main{
+      background-color: cornflowerblue;
+  }
+}
+@media only screen and (min-width: 1008px) {
+  .rightone{
+    display: none;
+  }
+  .righttwo{
+    display: none;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;color:#aaaaaa;">
+
+<div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+  <h1>Hello World</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <a href="#">Link 4</a>
+  </div>
+
+  <div class="main">
+    <h2>Lorum Ipsum</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  </div>
+
+  <div class="rightone">
+    <h2>small</h2>
+   
+  </div>
+  <div class="righttwo">
+    <h2>medium</h2>
+    
+  </div>
+  <div class="rightthree">
+    <h2>larg</h2>
+    
+  </div>
+</div>
+
+<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© copyright w3schools.com</div>
+
+</body>
+</html>
+

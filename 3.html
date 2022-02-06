@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <button onclick="calculateh()">mohit</button>
+    <button onclick="calculates()">masahat</button>
+    <button onclick="calculatebmi()">bmi</button>
+    <h1 id="demo"> 
+
+    </h1>
+        <script>
+            function calculateh(){
+            var r=33;
+            var p=3.14;
+            var h=2*p*r;
+          
+           document.getElementById('demo').innerHTML= h;
+           
+            }
+            function calculates(){
+            var r=33;
+            var p=3.14;
+            var s=p*r*r;
+          
+           document.getElementById('demo').innerHTML= s;
+           
+            }
+            function calculatebmi(){
+            var w=70;
+            var h=1.63;
+            var bmi=(w/(h*h));
+          
+           document.getElementById('demo').innerHTML= bmi;
+            }
+          </script>
+</body>
+</html>
