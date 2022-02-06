@@ -10,11 +10,13 @@
     <button type="button" onclick="calculates()">masahat</button>
     <button type="button" onclick="calculateh()">mohit</button>
     <button type="button" onclick="getdata()">get data</button>
-    
+    <hr/>
     <h1 id="demo"> 
 ...
     </h1>
-<hr/>
+    <h1 id="demo1"> 
+        ...
+            </h1>
 
     <script>
         function calculateh(){
@@ -22,7 +24,7 @@
         var p=3.14;
         var h=2*p*r;
       
-       document.getElementById('demo').innerHTML= h;
+       document.getElementById('demo1').innerHTML= h;
        
         }
         function calculates(){
@@ -34,7 +36,8 @@
         }
         function getdata(){
             alert(document.getElementById('demo').innerHTML)
-            alert(document.getElementById('demo').innerHTML)
+            alert(document.getElementById('demo1').innerHTML)
+            
 
         }
        </script>
