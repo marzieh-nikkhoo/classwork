@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+ 
+    <h2 >
+        سال تولد خود را وارد کنید
+    </h2>
+
+
+<label for="textage">year of birth:</label>
+<input type="number" id="textage" placeholder="year ex:1370" />
+
+<br/>
+
+<button onclick="calculateage()">calculate</button>
+
+
+<hr/>
+
+<p1 id="demo">
+
+</p1>
+</div>
+   
+    <script>
+
+ function calculateage(){
+ var year= document.getElementById('textage').value;
+ var age=(1400-Number(year) )
+ document.getElementById('demo').innerHTML="سن شما="+age;
+
+
+ }
+
+</script>  
+</body>
+</html>
