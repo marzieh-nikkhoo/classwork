@@ -23,7 +23,14 @@ var w= document.getElementById('textw').value;
 var h= document.getElementById('texth').value;
 var bmi=(w/(h*h));
 
-document.getElementById('demo').innerHTML=Math.round(bmi) ;
+if(bmi>23){
+    
+    document.getElementById("demo").innerHTML="overweight!";
+}
+else{
+   
+    document.getElementById("demo").innerHTML="ideal weight!";
+}
 }
 </script>
 
