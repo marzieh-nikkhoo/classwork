@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- define page title -->
     <title>Document</title>
 </head>
+
 <body>
     <label for="textw">vazn:</label>
     <input type="text" id="textw" placeholder="weight ex:82" />
-    <br/>
+    <br />
     <label for="texth">ghad:</label>
     <input type="text" id="texth" placeholder="hight ex:1.62" />
-    <br/>
+    <br />
     <button onclick="calculatebmi()">calculate</button>
     <h1 id="demo">
     </h1>
-        <script>
+    <script>
+        // create getBMI like this:
+        // function getBMI(weight, height) {
+        //     return weight / (height * height);
+        // }
 
-function calculatebmi(){
-var w= document.getElementById('textw').value;
-var h= document.getElementById('texth').value;
-var bmi=(w/(h*h));
+        //use camelCase naming for function name : https://www.w3schools.com/js/js_conventions.asp
+        function calculatebmi() {
+            var w = document.getElementById('textw').value; //choose clear name for example : weight instead of w
+            var h = document.getElementById('texth').value; //choose clear name for example : height instead of h
+            var bmi = (w / (h * h)); // use reusable function getBMI for example : var bmi = getBMI(weight,height);
 
-document.getElementById('demo').innerHTML=Math.round(bmi) ;
-}
-</script>
+            document.getElementById('demo').innerHTML = Math.round(bmi);
+        }
+    </script>
 
 </body>
+
 </html>
