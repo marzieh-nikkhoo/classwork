@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <title>calculate BMI</title>
 </head>
+
 <body>
-    <label for="textw">vazn:</label>
-    <input type="text" id="textw" placeholder="weight ex:82" />
-    <br/>
-    <label for="texth">ghad:</label>
-    <input type="text" id="texth" placeholder="hight ex:1.62" />
-    <br/>
-    <button onclick="calculatebmi()">calculate</button>
+    <label for="textWeight">vazn:</label>
+    <input type="text" id="textWeight" placeholder="weight ex:82" />
+    <br />
+    <label for="textHight">ghad:</label>
+    <input type="text" id="textHight" placeholder="hight ex:1.62" />
+    <br />
+    <button onclick="calculateBmi()">calculate</button>
     <h1 id="demo">
     </h1>
-        <script>
+    <script>
+        // create getBMI like this:
+        // function getBMI(weight, height) {
+        //     return weight / (height * height);
+        // }
 
-function calculatebmi(){
-var w= document.getElementById('textw').value;
-var h= document.getElementById('texth').value;
-var bmi=(w/(h*h));
+        function calculateBmi() {
+            var w = document.getElementById('textWeight').value; 
+            var h = document.getElementById('textHight').value; 
+            var bmi = (w / (h * h)); // use reusable function getBMI for example : var bmi = getBMI(weight,height);
 
 if(bmi>23){
     
-    document.getElementById("demo").innerHTML="overweight!";
+    document.getElementById("demo").innerHTML="Overweight!";
 }
 else{
    
-    document.getElementById("demo").innerHTML="ideal weight!";
+    document.getElementById("demo").innerHTML="Ideal weight!";
 }
 }
 </script>
+        
+    </script>
 
 </body>
+
 </html>

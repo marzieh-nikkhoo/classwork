@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AGE</title>
 </head>
 <body>
     
@@ -14,12 +14,12 @@
     </h2>
 
 
-<label for="textage">year of birth:</label>
-<input type="number" id="textage" placeholder="year ex:1370" />
+<label for="textAge">year of birth:</label>
+<input type="number" id="textAge" placeholder="year ex:1370" />
 
 <br/>
 
-<button onclick="calculateage()">calculate</button>
+<button onclick="calculateAge()">calculate</button>
 
 
 <hr/>
@@ -31,8 +31,8 @@
    
     <script>
 
- function calculateage(){
- var year= document.getElementById('textage').value;
+ function calculateAge(){
+ var year= document.getElementById('textAge').value;
  var age=(1400-Number(year) )
  document.getElementById('demo').innerHTML="سن شما="+age;
 
