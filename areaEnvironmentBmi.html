@@ -9,36 +9,25 @@
 
 
 <body>
-    <button onclick="calculateh()">mohit</button>
-    <button onclick="calculates()">masahat</button>
-    <button onclick="calculatebmi()">bmi</button>
+    <button onclick="calculateHight()">mohit</button>
+    <hr/>
+    <button onclick="calculateArea()">masahat</button>
+    <hr/>
+    <label for="textWeight">vazn:</label>
+    <input type="text" id="textWeight" placeholder="weight ex:82" />
+    <br />
+    <label for="textHight">ghad:</label>
+    <input type="text" id="textHight" placeholder="hight ex:1.62" />
+    <br />
+    <button onclick="calculateBmi()">calculate</button>
+    <hr/>
+    <h1 id="demo">
+    </h1>
     <h1 id="demo"> 
 
     </h1>
-        <script>
-            function calculateh(){
-            var r=33;
-            var p=3.14;
-            var h=2*p*r;
-          
-           document.getElementById('demo').innerHTML= h;
-           
-            }
-            function calculates(){
-            var r=33;
-            var p=3.14;
-            var s=p*r*r;
-          
-           document.getElementById('demo').innerHTML= s;
-           
-            }
-            function calculatebmi(){
-            var w=70;
-            var h=1.63;
-            var bmi=(w/(h*h));
-          
-           document.getElementById('demo').innerHTML= bmi;
-            }
+        <script src="areaEnvironmentBmi.js">
+            
           </script>
 </body>
 </html>
