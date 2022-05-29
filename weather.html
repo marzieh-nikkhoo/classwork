@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather forecast</title>
+<link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    
+    <div
+    class="container-fluid" 
+    >
+        <input type="text" placeholder="madrid" id="city">
+    <button onclick="getWeatherData()">forecast weather!</button>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-4 col-sm-12 col-xs-12">
+                <div class="card p-4">
+                    <div class="d-flex">
+                        <h1 class="flex-grow-1" id="demo"></h1>
+                     
+                    </div>
+                    <div class="d-flex flex-column temp mt-5 mb-3">
+                        <h1 class="mb-0 font-weight-bold" id="demo1">  </h1> 
+                        <h1 class="small grey" id="demo2"></h1>
+                    </div>
+                    <div class="d-flex">
+                        <div class="temp-details flex-grow-1">
+                            <h1 class="small grey" id="demo3"></h1>
+                            <h1 class="small grey" id="demo4"></h1>
+                            <h1 class="small grey" id="demo5"></h1>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="weather.js">
+       
+    </script>
+</body>
+</html>

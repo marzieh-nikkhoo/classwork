@@ -1,0 +1,17 @@
+.nameContainer {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    background-color: rgb(255, 233, 214);
+    color: rgb(80, 80, 252);
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    margin-top: 20px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
